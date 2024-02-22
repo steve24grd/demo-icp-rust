@@ -2,3 +2,4 @@
 members = [
     "src/rbank_backend",
 ]
+resolver = "2"
