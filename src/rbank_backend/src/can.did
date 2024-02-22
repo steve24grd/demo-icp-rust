@@ -5,7 +5,7 @@ type AccountItem =
     };
 
 service: {
-    topUp: (float32) -> ();
+    top_up: (float32) -> ();
     withdraw: (float32) -> ();
-    checkBalance: () -> (float64);
+    check_balance: () -> (float64);
 }
